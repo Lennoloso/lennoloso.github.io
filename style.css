@@ -1,0 +1,88 @@
+body {
+  background-color: #36393f;
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+nav {
+  background-color: #2f3136;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #b9bbbe;
+}
+
+.project {
+  background-color: #40444b;
+  color: #fff;
+  border: 1px solid #36393f;
+  margin: 20px;
+  padding: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project a {
+  background-color: #7289da;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.project a:hover {
+  background-color: #677bc4;
+}
+
+form {
+  background-color: #40444b;
+  color: #fff;
+  border: 1px solid #36393f;
+  margin: 20px;
+  padding: 20px;
+}
+
+form input[type="text"], form textarea {
+  background-color: #36393f;
+  color: #fff;
+  border: 1px solid #7289da;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background-color: #7289da;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #677bc4;
+}
